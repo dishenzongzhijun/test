@@ -1,0 +1,46 @@
+
+十分钟搭建自己的SSR科学上网梯子 (当前使用，稳定)
+http://luyiminggonnabeok.cn/2018/08/10/%E5%8D%81%E5%88%86%E9%92%9F%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84SSR%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E6%A2%AF%E5%AD%90/
+一键安装：wget -N --no-check-certificate https://raw.githubusercontent.com/luyiming1016/ladderbackup/master/ssrmu.sh && chmod +x ssrmu.sh && bash ssrmu.sh
+github:https://github.com/dishenzongzhijun/ladderbackup
+
+
+SSR + kcptun windows版
+https://blog.augustdoit.men/kcptun/
+
+
+KCPTUN各平台客户端下载汇总 附KCPTUN搭建流程
+https://ssrvps.org/archives/1875
+
+
+科学上网一键脚本，一键安装Shadowsocks-libev和v2ray+ws+tls代理
+https://1024.day/d/27
+一键安装： wget https://raw.githubusercontent.com/yeahwu/v2ray-wss/main/v2-wss.sh && bash v2-wss.sh
+github:https://github.com/dishenzongzhijun/v2ray-wss
+
+
+V2Ray完全使用教程，无需域名
+https://yearliny.com/v2ray-complete-tutorial/
+
+
+V2ray多合一脚本，支持VMESS+websocket+TLS+Nginx、VLESS+TCP+XTLS、VLESS+TCP+TLS等组合
+https://v2xtls.org/v2ray%e5%a4%9a%e5%90%88%e4%b8%80%e8%84%9a%e6%9c%ac%ef%bc%8c%e6%94%af%e6%8c%81vmesswebsockettlsnginx%e3%80%81vlesstcpxtls%e3%80%81vlesstcptls%e7%ad%89%e7%bb%84%e5%90%88/
+github:https://github.com/dishenzongzhijun/hijkpw-scripts-mod
+
+
+Xray一键脚本
+https://v2xtls.org/xray%e4%b8%80%e9%94%ae%e8%84%9a%e6%9c%ac/
+github:https://github.com/dishenzongzhijun/hijkpw-scripts-mod
+
+
+tlanyan
+https://itlanyan.com/
+
+
+注意：如果创建的是centos7的服务器，需要使用命令关闭防火墙，否则无法使用代理。CentOS 7.0默认使用的是firewall作为防火墙。
+
+查看防火墙状态命令：firewall-cmd --state
+
+停止firewall命令：systemctl stop firewalld.service
+
+禁止firewall开机启动命令：systemctl disable firewalld.service
