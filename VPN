@@ -2,17 +2,18 @@
 十分钟搭建自己的SSR科学上网梯子 (当前使用，稳定) ubuntu20
 http://luyiminggonnabeok.cn/2018/08/10/%E5%8D%81%E5%88%86%E9%92%9F%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84SSR%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E6%A2%AF%E5%AD%90/
 一键安装：wget -N --no-check-certificate https://raw.githubusercontent.com/luyiming1016/ladderbackup/master/ssrmu.sh && chmod +x ssrmu.sh && bash ssrmu.sh
-github:https://github.com/dishenzongzhijun/ladderbackup
+github:https://github.com/dishenzongzhijun/ladderbackup (fork)
 
 逗比Shadowsocks一键安装脚本（doubi SS） (当前使用，稳定) ubuntu20
 https://ssrvps.org/archives/2173
 https://blog.augustdoit.men/kcptun/
 一键安装：wget -N –no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ss-go.sh && chmod +x ss-go.sh && bash ss-go.sh
-github：
+github：https://github.com/ToyoDAdoubi/doubi (fork)
 
 超级加速工具KCPTUN一键安装脚本 
 https://ssrvps.org/archives/2237
 一键安装：wget –no-check-certificate https://github.com/kuoruan/shell-scripts/raw/master/kcptun/kcptun.sh chmod +x ./kcptun.sh ./kcptun.sh
+github：https://github.com/kuoruan/shell-scripts (fork)
 
 KCPTUN安卓客户端下载安装及使用教程 为手机SS/Shadowsocks加速
 https://ssrvps.org/archives/1861
